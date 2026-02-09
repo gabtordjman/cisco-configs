@@ -34,5 +34,7 @@ Ils fonctionnent très bien. Ces modèles ont été récupérés depuis cette re
 ## Points importants dans le fichier de confguration 
 
 Dans le paramétrage de "Line 1", le proxy doit être défini sur *USECALLMANAGER* pour utiliser les paramètres IP mis plus haut, au début du fichier. Sinon, ça ne marchera pas.
+
 Le "TransportLayerProtocol" doit être défini sur 1 pour utiliser TCP.
+
 Toutes les références a 5060 doivent être changées pour utiliser le bon port SIP si ce n'est pas le même (dans mon cas j'ai changé en 5160)
